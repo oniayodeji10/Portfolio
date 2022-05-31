@@ -1,0 +1,122 @@
+/* External stylesheet */
+body {
+    background-color: rgb(227, 248, 244);
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Style For all selector */
+*{
+    box-sizing: border-box;
+}
+/* Style For unordered list */
+ul{
+    list-style:square;
+}
+/* Style For section with id main */
+#main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+/* Style For navigations */
+nav {
+    display: flex;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: 5px 10px 30px rgba(0,0,0,0.02);
+	position: fixed;
+	left: 0;
+	top: 0;
+	width:100%;
+	z-index: 1;
+	background-color: #FFFFFF;
+  }
+
+/* Style For logo */
+  .logo img{
+	height: 90px;
+}
+
+
+nav ul{
+	display: flex;
+    list-style: none;
+}
+nav ul li a{
+	height:40px;
+	line-height: 43px;
+	margin: 3px;
+	padding: 0px 22px;
+	display: flex;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	color:#585b5b;
+	letter-spacing: 1px;
+}
+/* Style For links */
+a:link{
+    color: black;
+  }
+  a:visited{
+    color: gray;
+  }
+  a:hover {
+    background-color: coral;
+    color: rgb(41, 9, 219);
+  }
+  a:active {
+      color: skyblue;
+  }
+
+  .Picture > img{
+	width:80%;
+	height: 70%;
+	object-fit:cover;
+}
+.Picture{
+	width:800px;
+	height: 800px;
+}
+
+.IntroductionPage{
+	width:90%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.main-text{
+	width:500px;
+}
+.main-text h1{
+	font-size: 3.5rem;
+	color:#1c3548;
+	margin:0px 0px 10px 0px;
+	line-height: 60px;
+}
+.main-text p{
+	color:#747474;
+}
+
+.portfolio-btn{
+	width:190px;
+	height: 44px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color:#FFFFFF;
+	background-color: #1db096;
+	border-radius: 20px;
+	box-shadow: 4px 10px 30px rgba(24,139,119,0.2);
+}
+.portfolio-btn:hover{
+	background-color: #2852c7;
+	transition: all ease 0.2s;
+}
+

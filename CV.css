@@ -1,0 +1,125 @@
+/* External Stylesheet */ 
+body {
+    background-color: rgb(77, 86, 94);
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+
+/* Style For links */
+a:link{
+    color: black;
+  }
+  a:visited{
+    color: gray;
+  }
+  a:hover {
+    background-color: coral;
+    color: rgb(41, 9, 219);
+  }
+  a:active {
+      color: skyblue;
+  }
+
+nav {
+    display: flex;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: 5px 10px 30px rgba(0,0,0,0.02);
+	position:relative;
+	left: 0;
+	top: 0;
+	width:100%;
+	z-index: 2;
+	background-color: #FFFFFF; 
+  }
+
+ 
+
+nav ul{
+	display: flex;
+    list-style: none;
+}
+nav ul li a{
+	height:40px;
+	line-height: 43px;
+	margin: 3px;
+	padding: 0px 22px;
+	display: flex;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	color:#585b5b;
+	letter-spacing: 1px;
+    
+}
+
+
+
+
+/*body {
+    min-width: 500px;
+}*/
+
+div {
+  border-radius: 500px;
+  position: relative;
+  padding: auto;
+}
+
+
+#title {
+  margin-left: 3%;
+}
+
+
+
+
+.stuff {
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 55px;
+  width: 75%;
+  height: 1000px;
+}
+
+p,
+li {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.head {
+  font-size: 20px;
+}
+
+#name {
+  font-family: Sacramento;
+  float: right;
+  margin-top: 10px;
+  margin-right: 4%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+
+
+
+.Resume-btn{
+	width:190px;
+	height: 44px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color:#FFFFFF;
+	background-color: #1db096;
+	border-radius: 20px;
+	box-shadow: 4px 10px 30px rgba(24,139,119,0.2);
+}
+
+.date{
+    text-align: right;
+}
